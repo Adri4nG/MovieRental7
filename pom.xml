@@ -27,13 +27,13 @@
 
 		<resources>
 			<resource>
-				<directory>src/main/java</directory>
+				<directory>mrs_hs19/src/main/java</directory>
 				<excludes>
 					<exclude>**/*.java</exclude>
 				</excludes>
 			</resource>
 			<resource>
-				<directory>src/main/resources</directory>
+				<directory>mrs_hs19/src/main/resources</directory>
 			</resource>
 		</resources>
 
@@ -92,7 +92,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<configLocation>src/main/config/swc_checks.xml</configLocation>
+					<configLocation>mrs_hs19/src/main/config/swc_checks.xml</configLocation>
 					<suppressionsLocation>src/main/config/suppressions.xml</suppressionsLocation>
 					<encoding>UTF-8</encoding>
 					<consoleOutput>true</consoleOutput>
@@ -194,7 +194,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<configLocation>src/main/config/swc_checks.xml</configLocation>
+					<configLocation>mrs_hs19/src/main/config/swc_checks.xml</configLocation>
 					<encoding>UTF-8</encoding>
 					<linkXRef>false</linkXRef>
 				</configuration>
